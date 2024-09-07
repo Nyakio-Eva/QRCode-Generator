@@ -18,13 +18,16 @@ To run this project, you will need Python 3.x and the following package:
 
 
 ### Usage
-1. Clone the repository:     
-      git@github.com:Nyakio-Eva/QRCode-Generator.git   
+1. Clone the repository:  
+
+       git@github.com:Nyakio-Eva/QRCode-Generator.git   
 
 2. Navigate to the project directory:
-      cd qrcode-generator
+
+       cd qrcode-generator
 
 3. Run the Python script:
+    ```bash
        python3 qr.py
        python3 advancedqr.py
 
@@ -33,9 +36,9 @@ To run this project, you will need Python 3.x and the following package:
 ### Customization
 You can modify the QR code's size, border, color or file name by updating the script:
 
-        Size: Change the box_size parameter in the code to adjust the QR code's size.
-        Border: Update the border parameter to control the thickness around the QR code.
-        color: Add a hex code or color name of your choice in the fill_color and back_color sections
+    Size: Change the box_size parameter in the code to       adjust the QR code's size.
+    Border: Update the border parameter to control the thickness around the QR code.
+    color: Add a hex code or color name of your choice in the fill_color and back_color sections
 
 ### Contributing
 Contributions are welcome! If you have ideas for additional features or improvements, feel free to open a pull request or issue.
